@@ -1,6 +1,6 @@
 import {FC} from "react";
-import {Button, Divider, Text, useTheme} from "react-native-paper";
-import {View, TouchableOpacity, StyleSheet} from "react-native";
+import {Divider, Text, useTheme} from "react-native-paper";
+import {StyleSheet, TouchableOpacity, View} from "react-native";
 import LogoutIcon from "../../../assets/icons/LogoutIcon";
 import ArrowIcon from "../../../assets/icons/ArrowIcon";
 

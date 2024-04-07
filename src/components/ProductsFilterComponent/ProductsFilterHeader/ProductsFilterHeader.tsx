@@ -1,7 +1,7 @@
-import {FC, useCallback, useMemo, useState} from "react";
+import {FC, useState} from "react";
 import {Appbar, TextInput, useTheme} from "react-native-paper";
 import {useNavigation} from "@react-navigation/native";
-import {StyleSheet, View} from "react-native";
+import {StyleSheet} from "react-native";
 import SearchIcon from "../../../assets/icons/SearchIcon";
 import CloseIcon from "../../../assets/icons/CloseIcon";
 import {useAppDispatch} from "../../../core/hooks/ReduxToolkit";

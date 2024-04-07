@@ -4,9 +4,6 @@ import CustomCarousel from "../../../UI/Carousel/Carousel";
 import {ProductModel} from "../../../core/models/interfaces/response";
 import {Divider, Text, useTheme} from "react-native-paper";
 import Rating from "../../../UI/Rating";
-import {StyleProp} from "react-native/Libraries/StyleSheet/StyleSheet";
-import {ViewStyle} from "react-native/Libraries/StyleSheet/StyleSheetTypes";
-import ProductActions from "./ProductActions";
 import {Helpers} from "../../../core/helpers";
 
 interface ProductInfoModel {

@@ -1,4 +1,4 @@
-import {FC, memo} from "react";
+import {FC} from "react";
 import ArrayListProvider from "../../../hoc/ArrayListProvider";
 import CategoryItem from "./CategoryItem";
 import {useNavigation} from "@react-navigation/native";

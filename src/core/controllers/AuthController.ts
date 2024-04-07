@@ -2,7 +2,6 @@ import {AppDispatchType} from "../models/types";
 import {AuthService} from "../services/AuthService";
 import {LoginRequestDTOModel} from "../models/interfaces/dto";
 import {setSession} from "../store/reducers/MainReducer";
-import {SessionModel} from "../models/interfaces/response";
 import {setWishList} from "../store/reducers/ProductsReducer";
 
 export class AuthController {

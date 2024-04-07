@@ -7,7 +7,6 @@ import LoginHeader from "./LoginHeader";
 import {LoginRequestDTOModel} from "../../core/models/interfaces/dto";
 import {useAppDispatch} from "../../core/hooks/ReduxToolkit";
 import {AuthController} from "../../core/controllers/AuthController";
-import {useMainSelector} from "../../core/store/selectors";
 
 export const LoginComponent: FC = memo(() => {
 

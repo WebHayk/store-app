@@ -1,5 +1,5 @@
-import React, {useState, useRef, memo} from 'react';
-import { View, ScrollView, Image, Dimensions, StyleSheet } from 'react-native';
+import React, {memo, useRef, useState} from 'react';
+import {Dimensions, Image, ScrollView, StyleSheet, View} from 'react-native';
 import {useTheme} from "react-native-paper";
 
 const { width } = Dimensions.get('window');

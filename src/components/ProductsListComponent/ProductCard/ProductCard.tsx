@@ -1,11 +1,9 @@
 import {FC} from "react";
-import {IconButton, Text, TouchableRipple} from "react-native-paper";
+import {Text} from "react-native-paper";
 import {ProductModel} from "../../../core/models/interfaces/response";
-import {Image, TouchableOpacity, TouchableWithoutFeedback, View} from "react-native";
-import {StarIcon} from "../../../assets/icons/StarIcon";
+import {Image, StyleSheet, TouchableOpacity, TouchableWithoutFeedback, View} from "react-native";
 import HeartFilledIcon from "../../../assets/icons/HeartFilledIcon";
 import HeartOutlinedIcon from "../../../assets/icons/HeartOutlinedIcon";
-import {StyleSheet} from "react-native";
 import Rating from "../../../UI/Rating";
 
 interface ProductCardModel {

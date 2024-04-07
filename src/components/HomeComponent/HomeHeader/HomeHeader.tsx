@@ -1,8 +1,7 @@
 import {FC} from "react";
-import {Appbar, IconButton} from "react-native-paper";
+import {Appbar} from "react-native-paper";
 import {SCREEN_NAMES} from "../../../core/models/enums";
 import {Image} from "react-native";
-import SearchIcon from "../../../assets/icons/SearchIcon";
 import {useNavigation} from "@react-navigation/native";
 
 export const HomeHeader: FC = () => {

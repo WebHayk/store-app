@@ -1,7 +1,6 @@
 import {FC, ReactNode} from "react";
-import {Text} from "react-native-paper";
+import {ActivityIndicator, Text, useTheme} from "react-native-paper";
 import {Helpers} from "../../core/helpers";
-import {ActivityIndicator, useTheme} from "react-native-paper";
 
 interface ArrayListProviderModel {
     array: any[] | null,

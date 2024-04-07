@@ -1,7 +1,6 @@
-import {ChangeEvent, FC, memo, useState} from "react";
+import {FC, memo, useState} from "react";
 import {Button, TextInput, useTheme} from "react-native-paper";
 import {LoginRequestDTOModel} from "../../../core/models/interfaces/dto";
-import FormLayout from "../../../layouts/FormLayout";
 import {StyleSheet, View} from "react-native";
 
 interface LoginFormModel {

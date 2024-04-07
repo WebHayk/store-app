@@ -1,9 +1,8 @@
 import {FC, memo, useEffect} from "react";
 import MainLayout from "../../layouts/MainLayout";
-import {Text, useTheme} from "react-native-paper";
+import {useTheme} from "react-native-paper";
 import {useAppDispatch} from "../../core/hooks/ReduxToolkit";
 import {ProductsController} from "../../core/controllers/ProductsController";
-import {useNavigation} from "@react-navigation/native";
 import {ScrollView, StyleSheet} from "react-native";
 import ProductsListComponent from "../ProductsListComponent";
 import {useProductsSelector} from "../../core/store/selectors";

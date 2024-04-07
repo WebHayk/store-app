@@ -1,9 +1,6 @@
 import {FC} from "react";
 import {Appbar} from "react-native-paper";
-import HeartFilledIcon from "../../../assets/icons/HeartFilledIcon";
-import HeartOutlinedIcon from "../../../assets/icons/HeartOutlinedIcon";
 import {useNavigation} from "@react-navigation/native";
-import App from "../../../../App";
 import {SCREEN_NAMES} from "../../../core/models/enums";
 import {StyleSheet} from "react-native";
 

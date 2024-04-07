@@ -1,5 +1,4 @@
 import {FC} from "react";
-import {View} from "react-native";
 import {Avatar, List, Text, useTheme} from "react-native-paper";
 
 interface UserInfoModel {

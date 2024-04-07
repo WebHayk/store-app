@@ -7,7 +7,6 @@ import {useProductsSelector} from "../../core/store/selectors";
 import {ProductsController} from "../../core/controllers/ProductsController";
 import {useAppDispatch} from "../../core/hooks/ReduxToolkit";
 import {useNavigation} from "@react-navigation/native";
-import navigation from "../../navigation";
 import {SCREEN_NAMES} from "../../core/models/enums";
 import {StyleProp} from "react-native/Libraries/StyleSheet/StyleSheet";
 import {ViewStyle} from "react-native/Libraries/StyleSheet/StyleSheetTypes";

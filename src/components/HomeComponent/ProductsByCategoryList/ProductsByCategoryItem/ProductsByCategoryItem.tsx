@@ -1,8 +1,7 @@
 import {FC} from "react";
 import {CategoryProductsModel} from "../../../../core/models/interfaces";
-import {StyleSheet, View, FlatList} from "react-native";
+import {StyleSheet, View} from "react-native";
 import {Divider, Text, useTheme} from "react-native-paper";
-import ProductCard from "../../../ProductsListComponent/ProductCard";
 import ProductsListComponent from "../../../ProductsListComponent";
 
 interface ProductsByCategoryItemModel {

@@ -1,8 +1,6 @@
 import {FC} from "react";
 import {Image, StyleSheet, TouchableOpacity, View} from "react-native";
 import {Text} from "react-native-paper";
-import {StyleProp} from "react-native/Libraries/StyleSheet/StyleSheet";
-import {TextStyle} from "react-native/Libraries/StyleSheet/StyleSheetTypes";
 
 interface CategoryItemModel {
     category: string,

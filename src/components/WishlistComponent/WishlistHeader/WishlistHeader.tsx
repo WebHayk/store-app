@@ -2,7 +2,7 @@ import {FC} from "react";
 import {Appbar} from "react-native-paper";
 import {SCREEN_NAMES} from "../../../core/models/enums";
 import {useNavigation} from "@react-navigation/native";
-import {StyleSheet, Platform, View} from "react-native";
+import {StyleSheet} from "react-native";
 
 export const WishlistHeader: FC = () => {
 

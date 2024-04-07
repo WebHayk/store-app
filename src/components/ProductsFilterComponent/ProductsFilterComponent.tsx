@@ -4,7 +4,7 @@ import {useAppDispatch} from "../../core/hooks/ReduxToolkit";
 import {useProductsSelector} from "../../core/store/selectors";
 import ProductsListComponent from "../ProductsListComponent";
 import MainLayout from "../../layouts/MainLayout";
-import {ScrollView, StyleSheet, View} from "react-native";
+import {ScrollView, View} from "react-native";
 import {useTheme} from "react-native-paper";
 
 export const ProductsFilterComponent: FC = memo(() => {

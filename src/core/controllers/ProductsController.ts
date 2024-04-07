@@ -4,7 +4,9 @@ import {
     setCategories,
     setFilteredProducts,
     setProduct,
-    setProductsByCategory, setProductsByCategoryDetail, setWishList
+    setProductsByCategory,
+    setProductsByCategoryDetail,
+    setWishList
 } from "../store/reducers/ProductsReducer";
 import {CategoryProductsModel} from "../models/interfaces";
 import {ProductsResponseModel} from "../models/interfaces/response";
